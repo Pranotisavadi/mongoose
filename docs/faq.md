@@ -425,7 +425,14 @@ await BlogPost.updateOne({ title: 'Introduction to Promises' }, update, (err, re
 });
 ```
 
-<hr id="add_something" />
+<hr id="Map and Array" />
+ lists: {
+    type: Map,
+    of: Array,
+  },
+  
+  Is this correct? 
+![image](https://user-images.githubusercontent.com/94151822/158924586-8a613043-51dc-409c-a24a-92e9a0990f08.png) This is what I am trying to achive> what am I missing?
 
 **Something to add?**
 
